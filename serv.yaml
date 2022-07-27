@@ -1,0 +1,13 @@
+jtype: Flow
+version: '1'
+with:
+  port: 51000
+executors:
+  - name: clip_t
+    uses:
+      jtype: CLIPEncoder
+      with: 
+        name: ViT-B/16
+      metas:
+        py_modules:
+          - executors/clip_torch.py

@@ -1,0 +1,5 @@
+tensorflow
+scikit-learn
+nltk
+clip_client
+clip_server
